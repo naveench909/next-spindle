@@ -1,0 +1,209 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7.8rem;
+    padding-right: 7.8rem;
+    color: #fff;
+    background: #263439;
+    height: 4.3rem;
+    position: sticky;
+	top: 0;
+    z-index: 1;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 7.8rem;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+.center{
+    width: calc(100% - 35rem);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin-left: 7.25rem;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+}
+
+.myFeed , .savedPosts , .channel{
+    width: 7.5em;
+    height: 1.9em;
+    text-align: center;
+    align-content: center;
+    padding: 0.1em;
+    border-radius: 13px;
+    background: rgb(85, 85, 85);
+    color: white;
+    font-size: 1em;
+}
+.channel {
+    width: 40%;
+    /* height: 80%; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    align-content: center;
+}
+.channel ::placeholder{
+    font-size: 1rem;
+    color: white;
+    font-family: cursive;
+}
+.btn{
+    /* width: 40%; */
+    /* height: 45%; */
+    /* border-radius: 10px; */
+    /* border: none; */
+    /* background-color: white; */
+}
+.btn :hover{
+    cursor: pointer;
+}
+.profileLogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15em;
+    margin-left: auto;
+}
+.thread{
+    width: 10em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile{
+    height: 3.2em;
+    width: 3.2em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.profileModal{
+    position: absolute;
+    width: 20vw;
+    top: 5rem;
+    left: 59.5rem;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+   .thread{
+       align-items: center;
+   }
+  }
+
+/* **************************************************** */
+.container{
+    display:flex;
+    /* grid-template-columns: 1fr;
+    column-gap: 1rem; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* .container{
+    color:black;
+    position: fixed;
+    background:#e1e1e1;
+    top: 5rem;
+    left: 30rem;
+    height: 58vh;
+    width: 25vw;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 1px #000;;
+} */
+
+.single{
+    /* display:block; */
+    background: white;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.single>input :hover{
+    color: darkgreen;
+}
+.title{
+    margin-bottom: 1rem;
+}
+
+.radio{
+    float: right;
+}
+
+.first , .second{
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 1rem;
+}
+
+/* ****************************************** profileModal */
+/* 
+.main{
+    border-radius: 10px;
+    height: 6.4rem;
+    width: 20vw;
+    padding: 5px;
+    box-shadow: 0px 0px 50px 1px #000;;
+}
+
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.img{
+    border-radius: 50%;
+}
+.bio h3{
+    margin: 0;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.second button{
+    width: 10.2rem;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    padding: 0;
+}
+
+.second svg{
+    font-size: 20px;
+} */
